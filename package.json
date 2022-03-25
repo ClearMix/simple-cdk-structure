@@ -9,8 +9,8 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
-    "deploy": "cdk deploy -e 'NewStack' -y",
-    "deploy:all": "cdk deploy '*"
+    "deploy": "cdk deploy 'AppStack'",
+    "destroy": "cdk destroy 'AppStack'"
   },
   "devDependencies": {
     "@types/jest": "^26.0.10",
